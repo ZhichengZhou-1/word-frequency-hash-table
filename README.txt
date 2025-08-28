@@ -1,5 +1,20 @@
-This project implements a hash table from scratch in C to compute and sort word frequencies from a text file.
+# Wordpairs
 
-1. To compile this program, type "make" and it will build an executable caled "wordpairs"
-2. To run this program, type "./wordpairs -num textfile.txt"
-3. The average number of collisions is documented in line 146
+This project implements a hash table from scratch in **C** to compute and sort word frequencies from a text file.  
+It demonstrates core systems programming concepts such as manual memory management, hash function design, collision handling, and sorting.
+
+---
+
+## Features
+- Custom hash table implementation in C  
+- Word frequency counting and sorting  
+- Collision handling and tracking  
+- Command-line interface with configurable output size  
+
+---
+
+## Compilation & Running
+
+### Compile
+```bash
+make
